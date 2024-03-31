@@ -212,3 +212,119 @@ header {
     color: var(--main-color);
     border-bottom: 1px solid var(--main-color);
 }
+
+/* Products Section End */
+
+/* Customer Section Start */
+
+.customer-reviews {
+    margin-top: 7rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.customer {
+    text-align: center;
+}
+
+.customer-heading {
+    font-family: var(--primary-font);
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.customer-reviews .customer-description {
+    font-size: 12px;
+    margin-top: 20px;
+    max-width: 200px;
+    text-align: center;
+    margin: 10px;
+    font-family: var(--primary-font);
+}
+
+.customer .customer-img .img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.customer .img-one {
+    background: url(Img/joshua-rondeau-xazIYnxpS2Q-unsplash.jpg);
+}
+
+.customer .img-two {
+    background: url(Img/milan-popovic-kOnmHdLJTNI-unsplash.jpg);
+}
+
+.customer .img-three {
+    background: url(Img/oswaldo-ibanez-1NPUmTaiMeg-unsplash.jpg);
+}
+
+/* Customer Section End */
+
+/* Footer Start */
+
+footer {
+    background: #1f1e1e;
+    margin-top: 10rem;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    font-family: var(--primary-font);
+}
+
+footer .container .footer-heading {
+    margin-bottom: 3rem;
+}
+
+footer .container .footer-primary-heading {
+    font-weight: normal;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+/* Footer End */
+
+/* Media Queries */
+
+@media only screen and (max-width: 900px){
+    header {
+        height: 120vh;
+        text-align: center;
+    }
+
+    .section-1 {
+        height: 120vh;
+        text-align: center;
+    }
+
+    .header-img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .main-heading {
+        font-size: 3rem;
+        margin-top: 2rem;
+    }
+
+    .primary-headings {
+        width: 400px;
+    }
+
+    .customer .customer-img .img {
+        width: 150px;
+        height: 150px;
+    }
+}
